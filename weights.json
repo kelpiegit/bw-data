@@ -1,0 +1,1346 @@
+{
+ "ai_version": "proto-0.7",
+ "rule_version": "0.8",
+ "generations": 1598,
+ "accepted": 18,
+ "weights": [
+  -5,
+  35,
+  13,
+  30,
+  -11,
+  -2,
+  12,
+  -2,
+  7,
+  15,
+  -3,
+  -22,
+  -14,
+  1,
+  58,
+  63,
+  -24,
+  10,
+  3,
+  12,
+  -8,
+  -18,
+  6,
+  25,
+  26,
+  32,
+  2,
+  31
+ ],
+ "named": {
+  "ATK_BIAS": -5,
+  "DMG": 35,
+  "KO": 13,
+  "KO_FIRST": 30,
+  "ALLY_DMG": -11,
+  "STATUS_BIAS": -2,
+  "PSN": 12,
+  "BRN": -2,
+  "PAR": 7,
+  "SLP": 15,
+  "BOOST_OFF": -3,
+  "BOOST_DEF": -22,
+  "BOOST_SPE": -14,
+  "DEBUFF": 1,
+  "HEAL": 58,
+  "PROTECT": 63,
+  "PROTECT_BIAS": -24,
+  "REDIRECT": 10,
+  "SW_BIAS": 3,
+  "SW_GAIN": 12,
+  "SW_LOWHP": -8,
+  "OVERKILL": -18,
+  "FOCUS": 6,
+  "REP_HP": 25,
+  "BOOST_SAFE": 26,
+  "BOOST_KO": 32,
+  "SPEED_FLIP": 2,
+  "DISABLE_THREAT": 31
+ },
+ "history": [
+  {
+   "gen": 10,
+   "minutes": 0.2,
+   "accepted": 0,
+   "sigma": 3.69,
+   "vsHand": 0.5405,
+   "vsRandom": 0.919
+  },
+  {
+   "gen": 20,
+   "minutes": 0.3,
+   "accepted": 0,
+   "sigma": 2.72,
+   "vsHand": 0.55,
+   "vsRandom": 0.9205
+  },
+  {
+   "gen": 30,
+   "minutes": 0.5,
+   "accepted": 1,
+   "sigma": 2.27,
+   "vsHand": 0.553,
+   "vsRandom": 0.922
+  },
+  {
+   "gen": 40,
+   "minutes": 0.7,
+   "accepted": 1,
+   "sigma": 2,
+   "vsHand": 0.55225,
+   "vsRandom": 0.928
+  },
+  {
+   "gen": 50,
+   "minutes": 0.8,
+   "accepted": 1,
+   "sigma": 2,
+   "vsHand": 0.5485,
+   "vsRandom": 0.9255
+  },
+  {
+   "gen": 60,
+   "minutes": 1,
+   "accepted": 1,
+   "sigma": 2,
+   "vsHand": 0.54725,
+   "vsRandom": 0.927
+  },
+  {
+   "gen": 70,
+   "minutes": 1.1,
+   "accepted": 1,
+   "sigma": 2,
+   "vsHand": 0.54,
+   "vsRandom": 0.94
+  },
+  {
+   "gen": 80,
+   "minutes": 1.3,
+   "accepted": 1,
+   "sigma": 2,
+   "vsHand": 0.55925,
+   "vsRandom": 0.898
+  },
+  {
+   "gen": 90,
+   "minutes": 1.4,
+   "accepted": 1,
+   "sigma": 2,
+   "vsHand": 0.543,
+   "vsRandom": 0.934
+  },
+  {
+   "gen": 100,
+   "minutes": 1.6,
+   "accepted": 1,
+   "sigma": 2,
+   "vsHand": 0.555,
+   "vsRandom": 0.9325
+  },
+  {
+   "gen": 110,
+   "minutes": 1.7,
+   "accepted": 1,
+   "sigma": 2,
+   "vsHand": 0.5465,
+   "vsRandom": 0.918
+  },
+  {
+   "gen": 120,
+   "minutes": 1.9,
+   "accepted": 2,
+   "sigma": 2,
+   "vsHand": 0.53075,
+   "vsRandom": 0.902
+  },
+  {
+   "gen": 130,
+   "minutes": 2.1,
+   "accepted": 2,
+   "sigma": 2,
+   "vsHand": 0.54975,
+   "vsRandom": 0.903
+  },
+  {
+   "gen": 140,
+   "minutes": 2.2,
+   "accepted": 2,
+   "sigma": 2,
+   "vsHand": 0.532,
+   "vsRandom": 0.923
+  },
+  {
+   "gen": 150,
+   "minutes": 2.4,
+   "accepted": 2,
+   "sigma": 2,
+   "vsHand": 0.541,
+   "vsRandom": 0.9015
+  },
+  {
+   "gen": 160,
+   "minutes": 2.5,
+   "accepted": 2,
+   "sigma": 2,
+   "vsHand": 0.545,
+   "vsRandom": 0.92
+  },
+  {
+   "gen": 170,
+   "minutes": 2.7,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.55025,
+   "vsRandom": 0.917
+  },
+  {
+   "gen": 180,
+   "minutes": 2.9,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.55325,
+   "vsRandom": 0.917
+  },
+  {
+   "gen": 190,
+   "minutes": 3,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.5465,
+   "vsRandom": 0.932
+  },
+  {
+   "gen": 200,
+   "minutes": 3.2,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.542,
+   "vsRandom": 0.912
+  },
+  {
+   "gen": 210,
+   "minutes": 3.3,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.551,
+   "vsRandom": 0.923
+  },
+  {
+   "gen": 220,
+   "minutes": 3.5,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.541,
+   "vsRandom": 0.922
+  },
+  {
+   "gen": 230,
+   "minutes": 3.6,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.544,
+   "vsRandom": 0.901
+  },
+  {
+   "gen": 240,
+   "minutes": 3.8,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.55275,
+   "vsRandom": 0.932
+  },
+  {
+   "gen": 250,
+   "minutes": 3.9,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.5415,
+   "vsRandom": 0.937
+  },
+  {
+   "gen": 260,
+   "minutes": 4.1,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.5425,
+   "vsRandom": 0.918
+  },
+  {
+   "gen": 270,
+   "minutes": 4.2,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.552,
+   "vsRandom": 0.922
+  },
+  {
+   "gen": 280,
+   "minutes": 4.4,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.539,
+   "vsRandom": 0.932
+  },
+  {
+   "gen": 290,
+   "minutes": 4.5,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.542,
+   "vsRandom": 0.93
+  },
+  {
+   "gen": 300,
+   "minutes": 4.6,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.549,
+   "vsRandom": 0.923
+  },
+  {
+   "gen": 310,
+   "minutes": 4.8,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.5465,
+   "vsRandom": 0.923
+  },
+  {
+   "gen": 320,
+   "minutes": 4.9,
+   "accepted": 3,
+   "sigma": 2,
+   "vsHand": 0.56075,
+   "vsRandom": 0.908
+  },
+  {
+   "gen": 330,
+   "minutes": 5.1,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.5435,
+   "vsRandom": 0.917
+  },
+  {
+   "gen": 340,
+   "minutes": 5.2,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.53925,
+   "vsRandom": 0.9295
+  },
+  {
+   "gen": 350,
+   "minutes": 5.4,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.55275,
+   "vsRandom": 0.91
+  },
+  {
+   "gen": 360,
+   "minutes": 5.6,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.52775,
+   "vsRandom": 0.9035
+  },
+  {
+   "gen": 370,
+   "minutes": 5.7,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.56425,
+   "vsRandom": 0.9185
+  },
+  {
+   "gen": 380,
+   "minutes": 5.9,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.538,
+   "vsRandom": 0.92
+  },
+  {
+   "gen": 390,
+   "minutes": 6,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.55825,
+   "vsRandom": 0.9165
+  },
+  {
+   "gen": 400,
+   "minutes": 6.2,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.5465,
+   "vsRandom": 0.9275
+  },
+  {
+   "gen": 410,
+   "minutes": 6.3,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.54725,
+   "vsRandom": 0.911
+  },
+  {
+   "gen": 420,
+   "minutes": 6.5,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.56925,
+   "vsRandom": 0.91
+  },
+  {
+   "gen": 430,
+   "minutes": 6.7,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.54975,
+   "vsRandom": 0.905
+  },
+  {
+   "gen": 440,
+   "minutes": 6.8,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.5545,
+   "vsRandom": 0.921
+  },
+  {
+   "gen": 450,
+   "minutes": 7,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.5645,
+   "vsRandom": 0.91
+  },
+  {
+   "gen": 460,
+   "minutes": 7.1,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.5575,
+   "vsRandom": 0.911
+  },
+  {
+   "gen": 470,
+   "minutes": 7.3,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.543,
+   "vsRandom": 0.923
+  },
+  {
+   "gen": 480,
+   "minutes": 7.5,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.55525,
+   "vsRandom": 0.924
+  },
+  {
+   "gen": 490,
+   "minutes": 7.6,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.5485,
+   "vsRandom": 0.9225
+  },
+  {
+   "gen": 500,
+   "minutes": 7.8,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.55675,
+   "vsRandom": 0.92
+  },
+  {
+   "gen": 510,
+   "minutes": 7.9,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.5445,
+   "vsRandom": 0.915
+  },
+  {
+   "gen": 520,
+   "minutes": 8.1,
+   "accepted": 4,
+   "sigma": 2,
+   "vsHand": 0.55425,
+   "vsRandom": 0.9215
+  },
+  {
+   "gen": 530,
+   "minutes": 8.2,
+   "accepted": 5,
+   "sigma": 2.2,
+   "vsHand": 0.547,
+   "vsRandom": 0.922
+  },
+  {
+   "gen": 540,
+   "minutes": 8.4,
+   "accepted": 5,
+   "sigma": 2,
+   "vsHand": 0.558,
+   "vsRandom": 0.929
+  },
+  {
+   "gen": 550,
+   "minutes": 8.5,
+   "accepted": 5,
+   "sigma": 2,
+   "vsHand": 0.543,
+   "vsRandom": 0.92
+  },
+  {
+   "gen": 560,
+   "minutes": 8.7,
+   "accepted": 5,
+   "sigma": 2,
+   "vsHand": 0.5545,
+   "vsRandom": 0.9225
+  },
+  {
+   "gen": 570,
+   "minutes": 8.8,
+   "accepted": 5,
+   "sigma": 2,
+   "vsHand": 0.54625,
+   "vsRandom": 0.923
+  },
+  {
+   "gen": 580,
+   "minutes": 9,
+   "accepted": 5,
+   "sigma": 2,
+   "vsHand": 0.54975,
+   "vsRandom": 0.932
+  },
+  {
+   "gen": 590,
+   "minutes": 9.1,
+   "accepted": 5,
+   "sigma": 2,
+   "vsHand": 0.5415,
+   "vsRandom": 0.92
+  },
+  {
+   "gen": 600,
+   "minutes": 9.3,
+   "accepted": 5,
+   "sigma": 2,
+   "vsHand": 0.56025,
+   "vsRandom": 0.9365
+  },
+  {
+   "gen": 610,
+   "minutes": 9.4,
+   "accepted": 5,
+   "sigma": 2,
+   "vsHand": 0.55575,
+   "vsRandom": 0.911
+  },
+  {
+   "gen": 620,
+   "minutes": 9.6,
+   "accepted": 5,
+   "sigma": 2,
+   "vsHand": 0.55475,
+   "vsRandom": 0.913
+  },
+  {
+   "gen": 630,
+   "minutes": 9.7,
+   "accepted": 5,
+   "sigma": 2,
+   "vsHand": 0.5435,
+   "vsRandom": 0.921
+  },
+  {
+   "gen": 640,
+   "minutes": 9.8,
+   "accepted": 5,
+   "sigma": 2,
+   "vsHand": 0.55675,
+   "vsRandom": 0.936
+  },
+  {
+   "gen": 650,
+   "minutes": 10,
+   "accepted": 6,
+   "sigma": 2,
+   "vsHand": 0.55175,
+   "vsRandom": 0.927
+  },
+  {
+   "gen": 660,
+   "minutes": 10.1,
+   "accepted": 6,
+   "sigma": 2,
+   "vsHand": 0.555,
+   "vsRandom": 0.9175
+  },
+  {
+   "gen": 670,
+   "minutes": 10.3,
+   "accepted": 6,
+   "sigma": 2,
+   "vsHand": 0.547,
+   "vsRandom": 0.9335
+  },
+  {
+   "gen": 680,
+   "minutes": 10.4,
+   "accepted": 6,
+   "sigma": 2,
+   "vsHand": 0.5475,
+   "vsRandom": 0.92
+  },
+  {
+   "gen": 690,
+   "minutes": 10.6,
+   "accepted": 7,
+   "sigma": 2,
+   "vsHand": 0.539,
+   "vsRandom": 0.922
+  },
+  {
+   "gen": 700,
+   "minutes": 10.7,
+   "accepted": 7,
+   "sigma": 2,
+   "vsHand": 0.5365,
+   "vsRandom": 0.913
+  },
+  {
+   "gen": 710,
+   "minutes": 10.9,
+   "accepted": 8,
+   "sigma": 2.13,
+   "vsHand": 0.54825,
+   "vsRandom": 0.9285
+  },
+  {
+   "gen": 720,
+   "minutes": 11,
+   "accepted": 8,
+   "sigma": 2,
+   "vsHand": 0.54525,
+   "vsRandom": 0.921
+  },
+  {
+   "gen": 730,
+   "minutes": 11.2,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.5475,
+   "vsRandom": 0.919
+  },
+  {
+   "gen": 740,
+   "minutes": 11.3,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.56625,
+   "vsRandom": 0.932
+  },
+  {
+   "gen": 750,
+   "minutes": 11.5,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.54575,
+   "vsRandom": 0.921
+  },
+  {
+   "gen": 760,
+   "minutes": 11.6,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.5445,
+   "vsRandom": 0.931
+  },
+  {
+   "gen": 770,
+   "minutes": 11.8,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.542,
+   "vsRandom": 0.9165
+  },
+  {
+   "gen": 780,
+   "minutes": 11.9,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.55175,
+   "vsRandom": 0.929
+  },
+  {
+   "gen": 790,
+   "minutes": 12.1,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.5615,
+   "vsRandom": 0.934
+  },
+  {
+   "gen": 800,
+   "minutes": 12.2,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.53375,
+   "vsRandom": 0.923
+  },
+  {
+   "gen": 810,
+   "minutes": 12.4,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.55475,
+   "vsRandom": 0.913
+  },
+  {
+   "gen": 820,
+   "minutes": 12.5,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.5465,
+   "vsRandom": 0.9185
+  },
+  {
+   "gen": 830,
+   "minutes": 12.7,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.5435,
+   "vsRandom": 0.9225
+  },
+  {
+   "gen": 840,
+   "minutes": 12.8,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.52925,
+   "vsRandom": 0.921
+  },
+  {
+   "gen": 850,
+   "minutes": 13,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.536,
+   "vsRandom": 0.924
+  },
+  {
+   "gen": 860,
+   "minutes": 13.1,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.5555,
+   "vsRandom": 0.925
+  },
+  {
+   "gen": 870,
+   "minutes": 13.3,
+   "accepted": 9,
+   "sigma": 2,
+   "vsHand": 0.5505,
+   "vsRandom": 0.9245
+  },
+  {
+   "gen": 880,
+   "minutes": 13.4,
+   "accepted": 10,
+   "sigma": 2,
+   "vsHand": 0.54275,
+   "vsRandom": 0.8985
+  },
+  {
+   "gen": 890,
+   "minutes": 13.6,
+   "accepted": 10,
+   "sigma": 2,
+   "vsHand": 0.54475,
+   "vsRandom": 0.9165
+  },
+  {
+   "gen": 900,
+   "minutes": 13.7,
+   "accepted": 10,
+   "sigma": 2,
+   "vsHand": 0.54575,
+   "vsRandom": 0.9095
+  },
+  {
+   "gen": 910,
+   "minutes": 13.9,
+   "accepted": 10,
+   "sigma": 2,
+   "vsHand": 0.5495,
+   "vsRandom": 0.913
+  },
+  {
+   "gen": 920,
+   "minutes": 14,
+   "accepted": 10,
+   "sigma": 2,
+   "vsHand": 0.54425,
+   "vsRandom": 0.925
+  },
+  {
+   "gen": 930,
+   "minutes": 14.2,
+   "accepted": 10,
+   "sigma": 2,
+   "vsHand": 0.569,
+   "vsRandom": 0.922
+  },
+  {
+   "gen": 940,
+   "minutes": 14.4,
+   "accepted": 10,
+   "sigma": 2,
+   "vsHand": 0.5505,
+   "vsRandom": 0.921
+  },
+  {
+   "gen": 950,
+   "minutes": 14.5,
+   "accepted": 10,
+   "sigma": 2,
+   "vsHand": 0.55275,
+   "vsRandom": 0.902
+  },
+  {
+   "gen": 960,
+   "minutes": 14.7,
+   "accepted": 10,
+   "sigma": 2,
+   "vsHand": 0.554,
+   "vsRandom": 0.942
+  },
+  {
+   "gen": 970,
+   "minutes": 14.9,
+   "accepted": 10,
+   "sigma": 2,
+   "vsHand": 0.544,
+   "vsRandom": 0.9185
+  },
+  {
+   "gen": 980,
+   "minutes": 15,
+   "accepted": 10,
+   "sigma": 2,
+   "vsHand": 0.55325,
+   "vsRandom": 0.919
+  },
+  {
+   "gen": 990,
+   "minutes": 15.2,
+   "accepted": 10,
+   "sigma": 2,
+   "vsHand": 0.542,
+   "vsRandom": 0.9265
+  },
+  {
+   "gen": 1000,
+   "minutes": 15.4,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.54775,
+   "vsRandom": 0.924
+  },
+  {
+   "gen": 1010,
+   "minutes": 15.5,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.54325,
+   "vsRandom": 0.918
+  },
+  {
+   "gen": 1020,
+   "minutes": 15.7,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.5475,
+   "vsRandom": 0.917
+  },
+  {
+   "gen": 1030,
+   "minutes": 15.8,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.55175,
+   "vsRandom": 0.9345
+  },
+  {
+   "gen": 1040,
+   "minutes": 16,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.538,
+   "vsRandom": 0.9165
+  },
+  {
+   "gen": 1050,
+   "minutes": 16.2,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.53975,
+   "vsRandom": 0.921
+  },
+  {
+   "gen": 1060,
+   "minutes": 16.3,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.5645,
+   "vsRandom": 0.9095
+  },
+  {
+   "gen": 1070,
+   "minutes": 16.5,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.53975,
+   "vsRandom": 0.9235
+  },
+  {
+   "gen": 1080,
+   "minutes": 16.6,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.559,
+   "vsRandom": 0.917
+  },
+  {
+   "gen": 1090,
+   "minutes": 16.8,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.5515,
+   "vsRandom": 0.931
+  },
+  {
+   "gen": 1100,
+   "minutes": 16.9,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.543,
+   "vsRandom": 0.9265
+  },
+  {
+   "gen": 1110,
+   "minutes": 17.1,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.5395,
+   "vsRandom": 0.926
+  },
+  {
+   "gen": 1120,
+   "minutes": 17.3,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.55575,
+   "vsRandom": 0.925
+  },
+  {
+   "gen": 1130,
+   "minutes": 17.4,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.5585,
+   "vsRandom": 0.912
+  },
+  {
+   "gen": 1140,
+   "minutes": 17.6,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.545,
+   "vsRandom": 0.9425
+  },
+  {
+   "gen": 1150,
+   "minutes": 17.7,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.5445,
+   "vsRandom": 0.932
+  },
+  {
+   "gen": 1160,
+   "minutes": 17.9,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.54675,
+   "vsRandom": 0.9245
+  },
+  {
+   "gen": 1170,
+   "minutes": 18.1,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.5445,
+   "vsRandom": 0.914
+  },
+  {
+   "gen": 1180,
+   "minutes": 18.2,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.5465,
+   "vsRandom": 0.928
+  },
+  {
+   "gen": 1190,
+   "minutes": 18.4,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.55575,
+   "vsRandom": 0.929
+  },
+  {
+   "gen": 1200,
+   "minutes": 18.5,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.54625,
+   "vsRandom": 0.9255
+  },
+  {
+   "gen": 1210,
+   "minutes": 18.7,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.55875,
+   "vsRandom": 0.9165
+  },
+  {
+   "gen": 1220,
+   "minutes": 18.9,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.5545,
+   "vsRandom": 0.9245
+  },
+  {
+   "gen": 1230,
+   "minutes": 19,
+   "accepted": 11,
+   "sigma": 2,
+   "vsHand": 0.545,
+   "vsRandom": 0.928
+  },
+  {
+   "gen": 1240,
+   "minutes": 19.2,
+   "accepted": 12,
+   "sigma": 2,
+   "vsHand": 0.53825,
+   "vsRandom": 0.926
+  },
+  {
+   "gen": 1250,
+   "minutes": 19.3,
+   "accepted": 12,
+   "sigma": 2,
+   "vsHand": 0.55525,
+   "vsRandom": 0.9155
+  },
+  {
+   "gen": 1260,
+   "minutes": 19.5,
+   "accepted": 13,
+   "sigma": 2.07,
+   "vsHand": 0.54475,
+   "vsRandom": 0.9145
+  },
+  {
+   "gen": 1270,
+   "minutes": 19.7,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.54875,
+   "vsRandom": 0.914
+  },
+  {
+   "gen": 1280,
+   "minutes": 19.9,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.5545,
+   "vsRandom": 0.913
+  },
+  {
+   "gen": 1290,
+   "minutes": 20,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.542,
+   "vsRandom": 0.9315
+  },
+  {
+   "gen": 1300,
+   "minutes": 20.2,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.56125,
+   "vsRandom": 0.9225
+  },
+  {
+   "gen": 1310,
+   "minutes": 20.3,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.538,
+   "vsRandom": 0.923
+  },
+  {
+   "gen": 1320,
+   "minutes": 20.5,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.546,
+   "vsRandom": 0.9105
+  },
+  {
+   "gen": 1330,
+   "minutes": 20.7,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.54575,
+   "vsRandom": 0.925
+  },
+  {
+   "gen": 1340,
+   "minutes": 20.8,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.554,
+   "vsRandom": 0.9295
+  },
+  {
+   "gen": 1350,
+   "minutes": 21,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.56575,
+   "vsRandom": 0.931
+  },
+  {
+   "gen": 1360,
+   "minutes": 21.1,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.5555,
+   "vsRandom": 0.912
+  },
+  {
+   "gen": 1370,
+   "minutes": 21.3,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.56175,
+   "vsRandom": 0.925
+  },
+  {
+   "gen": 1380,
+   "minutes": 21.5,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.546,
+   "vsRandom": 0.9355
+  },
+  {
+   "gen": 1390,
+   "minutes": 21.6,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.559,
+   "vsRandom": 0.9175
+  },
+  {
+   "gen": 1400,
+   "minutes": 21.8,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.55475,
+   "vsRandom": 0.921
+  },
+  {
+   "gen": 1410,
+   "minutes": 21.9,
+   "accepted": 13,
+   "sigma": 2,
+   "vsHand": 0.5675,
+   "vsRandom": 0.9225
+  },
+  {
+   "gen": 1420,
+   "minutes": 22.1,
+   "accepted": 14,
+   "sigma": 2,
+   "vsHand": 0.5525,
+   "vsRandom": 0.9165
+  },
+  {
+   "gen": 1430,
+   "minutes": 22.2,
+   "accepted": 15,
+   "sigma": 2.2,
+   "vsHand": 0.531,
+   "vsRandom": 0.9175
+  },
+  {
+   "gen": 1440,
+   "minutes": 22.4,
+   "accepted": 15,
+   "sigma": 2,
+   "vsHand": 0.533,
+   "vsRandom": 0.929
+  },
+  {
+   "gen": 1450,
+   "minutes": 22.6,
+   "accepted": 15,
+   "sigma": 2,
+   "vsHand": 0.5315,
+   "vsRandom": 0.92
+  },
+  {
+   "gen": 1460,
+   "minutes": 22.7,
+   "accepted": 15,
+   "sigma": 2,
+   "vsHand": 0.53225,
+   "vsRandom": 0.9155
+  },
+  {
+   "gen": 1470,
+   "minutes": 22.9,
+   "accepted": 16,
+   "sigma": 2,
+   "vsHand": 0.53675,
+   "vsRandom": 0.917
+  },
+  {
+   "gen": 1480,
+   "minutes": 23.1,
+   "accepted": 17,
+   "sigma": 2,
+   "vsHand": 0.559,
+   "vsRandom": 0.915
+  },
+  {
+   "gen": 1490,
+   "minutes": 23.2,
+   "accepted": 17,
+   "sigma": 2,
+   "vsHand": 0.5395,
+   "vsRandom": 0.9255
+  },
+  {
+   "gen": 1500,
+   "minutes": 23.4,
+   "accepted": 17,
+   "sigma": 2,
+   "vsHand": 0.5495,
+   "vsRandom": 0.915
+  },
+  {
+   "gen": 1510,
+   "minutes": 23.6,
+   "accepted": 17,
+   "sigma": 2,
+   "vsHand": 0.5515,
+   "vsRandom": 0.908
+  },
+  {
+   "gen": 1520,
+   "minutes": 23.7,
+   "accepted": 17,
+   "sigma": 2,
+   "vsHand": 0.542,
+   "vsRandom": 0.9145
+  },
+  {
+   "gen": 1530,
+   "minutes": 23.9,
+   "accepted": 17,
+   "sigma": 2,
+   "vsHand": 0.54075,
+   "vsRandom": 0.931
+  },
+  {
+   "gen": 1540,
+   "minutes": 24.1,
+   "accepted": 18,
+   "sigma": 2.2,
+   "vsHand": 0.53775,
+   "vsRandom": 0.916
+  },
+  {
+   "gen": 1550,
+   "minutes": 24.2,
+   "accepted": 18,
+   "sigma": 2,
+   "vsHand": 0.54475,
+   "vsRandom": 0.9155
+  },
+  {
+   "gen": 1560,
+   "minutes": 24.4,
+   "accepted": 18,
+   "sigma": 2,
+   "vsHand": 0.53525,
+   "vsRandom": 0.93
+  },
+  {
+   "gen": 1570,
+   "minutes": 24.6,
+   "accepted": 18,
+   "sigma": 2,
+   "vsHand": 0.545,
+   "vsRandom": 0.92
+  },
+  {
+   "gen": 1580,
+   "minutes": 24.7,
+   "accepted": 18,
+   "sigma": 2,
+   "vsHand": 0.5415,
+   "vsRandom": 0.9285
+  },
+  {
+   "gen": 1590,
+   "minutes": 24.9,
+   "accepted": 18,
+   "sigma": 2,
+   "vsHand": 0.5425,
+   "vsRandom": 0.929
+  },
+  {
+   "gen": 1598,
+   "final": true,
+   "vsHand": 0.54375,
+   "vsRandom": 0.909
+  }
+ ]
+}
